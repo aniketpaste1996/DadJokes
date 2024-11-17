@@ -17,7 +17,7 @@ async function generateJoke() {
 
   const data = await res.json()
 
-  jokeEl.innerHTML = data.id
+  jokeEl.innerHTML = data.joke
 }
 
 // USING .then()
